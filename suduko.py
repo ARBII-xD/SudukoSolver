@@ -50,7 +50,7 @@ def valid_number(bo, number, position):
                 return False
     return True
 
-def solver(bo):
+def solver(bo):                           #Back Tracking function
     findSpace = find_empty_space(bo)
     if not findSpace :
         return True
